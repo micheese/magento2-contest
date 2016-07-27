@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Okalm_Contest::title" title="Contest" module="Okalm_Contest" sortOrder="30" resource="Okalm_Contest::title"/>
+
+        <add id="Okalm_Contest::config" title="Configuration" module="Okalm_Contest" sortOrder="10" parent="Okalm_Contest::title" action="contest/config" resource="Ves_HelloWorld::brand_head_manage"/>
+
+    </menu>
+</config>
